@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <label for="datepicker">When was your last period?
+            <input type="text" id="datepicker" autocomplete="off">
+        </label>
+    </div>
+    <div class="container">
+        <button class="button button-accept" data-target="accept" onclick="predictDates()">Predict your next
+            period</button>
+    </div>
+    <div style="display: flex; justify-content:space-around;">
+        <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12 container" id="cont2" style="display: none;">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Next period</h4>
+                    <p class="card-text" id="nextperiod"></p>
+                    <br><br>
+                    <h4 class="card-title">Next to next period</h4>
+                    <p class="card-text" id="nexttonext"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12 container" id="cont1" style="display: none;">
+            <div class="card">
+                <div class="card-body1">
+                    <a href="about.html"><button class="btn1"> All you need to know </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

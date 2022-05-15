@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Include the Web Playback SDK -->
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+
+    <!-- Include our Javascript -->
+    <script src="main.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+
+  <body class="container">
+    <div class="cards-list">
+      <div class="card 1" onclick="getASong('happy')">
+        <div class="card_image">
+          <img
+            src="https://i.pinimg.com/736x/7d/d6/94/7dd694ae4a5c128d4495a34974865a5d.jpg"
+          />
+        </div>
+        <div class="card_title title-black">
+          <p>Happy Mood</p>
+        </div>
+      </div>
+
+      <div class="card 2" onclick="getASong('sad')">
+        <div class="card_image">
+          <img
+            src="https://media.istockphoto.com/vectors/young-sad-girl-sitting-and-unhappy-hugging-her-knees-vector-id1152645476?k=20&m=1152645476&s=612x612&w=0&h=5FfxMPOxr7TDV-ETsVjgTsZwDtTNbhuXjwkvAlFM40U="
+          />
+        </div>
+        <div class="card_title title-black">
+          <p>Sad Mood</p>
+        </div>
+      </div>
+
+      <div class="card 3" onclick="getASong('nervous')">
+        <div class="card_image">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/004/646/497/original/depressed-girl-with-anxiety-and-scary-fantasies-feeling-sorrow-fears-sadness-illustration-vector.jpg"
+          />
+        </div>
+        <div class="card_title">
+          <p>Feeling Nervous</p>
+        </div>
+      </div>
+
+      <div class="card 4" onclick="getASong('love')">
+        <div class="card_image">
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/girl-feeling-love-4884322-4064575.png"
+          />
+        </div>
+        <div class="card_title title-black">
+          <p>Feeling Loved</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row padding">
+      <center class="contender">
+        <iframe
+          id="embed-uri"
+          src="about:blank"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </center>
+    </div>
+  </body>
+</html>

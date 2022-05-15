@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<title>Pregancy Tracker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js" defer></script>
+	<script src="util.js" defer></script>
+	<script src="main.js" defer></script>
+</head>
+
+<body>
+	<div id="google_translate_element"></div>
+	<div class="align">
+	<div class="form-center">
+	<form id="form-due-date">
+		<h1>Estimated Due Date:</h1>
+		<label for="due-date-input"></label>
+		<input type="date" id="due-date-input" />
+		<button type="submit" class="btn-update">Set</button>
+		<button type="button" id="btn-reset" class="btn-reset">Reset</button>
+	</form>
+	</div>
+	</div>
+	<main id="main" class="empty">
+
+		<section data-calendar class="calendar-wrapper"></section>
+
+		<section data-table class="table-wrapper">
+
+			<table id="table-tracker" class="table-tracker">
+				<thead>
+					<tr>
+						<th class="col-date">Date</th>
+						<th class="col-week-no">Week No.</th>
+						<th class="col-day-gest">Day of Gestation</th>
+						<th class="col-day-fert">Day of Fertilization</th>
+						<th class="col-age-pregnancy">Age of Pregnancy</th>
+						<th class="col-age-conceptus">Age of Conceptus</th>
+						<th class="col-countdown">Countdown to Due Date</th>
+						<th class="col-notes">Notes</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+
+			<div>
+				<nav>
+					<ul>
+						<h3></h3>
+						<li><a class="nav-link" data-nav="top">Top</a></li>
+						<li><a class="nav-link" data-nav="today">Today</a></li>
+						<li><a class="nav-link" data-nav="due-date">Due Date</a></li>
+					</ul>
+
+					<ul id="nav-weeks"></ul>
+				</nav>
+			</div>
+
+		</section>
+	</main>
+
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+		</script>
+		
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			
+	<script src="index.js"></script>
+
+</body>
+
+</html>

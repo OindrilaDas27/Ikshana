@@ -1,0 +1,29 @@
+html {
+    background: url(h.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: antiquewhite;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: wheat;
+}
+
+h2 {
+    text-decoration: aliceblue;
+}
