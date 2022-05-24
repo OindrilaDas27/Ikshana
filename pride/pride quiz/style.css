@@ -1,5 +1,10 @@
 /* || font import */
 
+* {
+  box-sizing: border-box;
+}
+  
+
 @font-face {
   font-family: 'harry_pregular';
   src: url('fonts/harryp-webfont.eot');
@@ -75,7 +80,7 @@
 /* || general positioning and stuff */
 
 article {
-  display: block;
+  display: flex;
 }
 
 html,
@@ -92,23 +97,31 @@ html {
 
 #wrapper {
   background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pride-flags-1622580006.png") center;
-  width: 500px;
+  width: 800px;
   margin: 2rem auto;
-  height: 200px;
+  height: 500px;
   position: relative;
   border-radius: 7px;
   box-shadow: 5px 5px 10px black,
-    inset 5px 5px 20px rgba(255, 255, 255, 0.8);
+  inset 5px 5px 20px rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
 #wrapper div {
+  display: flex;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   bottom: 0;
   left: 0;
   right: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #wrapper #score {
@@ -129,6 +142,7 @@ h1 {
   font-size: 7rem;
   text-align: right;
   padding: 1rem 1rem 0 0;
+  margin-top: -15px;
 }
 
 #score h1 {
@@ -181,6 +195,8 @@ div button {
   background: linear-gradient(#ccc, #666);
   box-shadow: 1px 1px 1px black;
   border-radius: 7px 0px;
+  margin-top: 450px;
+  margin-left: 350px;
 }
 
 @media all and (max-width: 500px) {
@@ -195,8 +211,14 @@ div button {
 
   div div button,
   select {
-    display: block;
+    display: flex;
     margin: 0.4rem auto;
     width: 60%;
   }
+}
+
+.appear {
+  margin-top: 250px !important;
+  display: flex !important;
+
 }
