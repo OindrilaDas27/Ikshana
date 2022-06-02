@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  border-radius: 25px;
 }
   
 
@@ -85,25 +86,29 @@ article {
 
 html,
 body {
-  margin: 0;
+  margin-top: 35px;
   padding: 0;
 }
 
 html {
-  background: white;
+  background-image: url(bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'helvetica neue', sans-serif;
   font-size: 10px;
 }
 
 #wrapper {
-  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pride-flags-1622580006.png") center;
-  width: 800px;
+  /* background: url("https://i0.wp.com/thesimscatalog.com/sims4/wp-content/uploads/2021/06/PrideWallpaperTHumbnail-754795be.png?fit=800%2C600&ssl=1") center;
+  background-size: cover; */
+  width: 1000px;
   margin: 2rem auto;
-  height: 500px;
+  height: 600px;
   position: relative;
-  border-radius: 7px;
+  border-radius: 25px;
   box-shadow: 5px 5px 10px black,
-  inset 5px 5px 20px rgba(255, 255, 255, 0.8);
+  inset 5px 5px 20px rgba(255, 255, 255, 0.797);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -113,20 +118,29 @@ html {
 
 
 #wrapper div {
+  width: 1000px;
+  height: 600px;
   display: flex;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(239, 215, 255);
   padding: 1rem;
   bottom: 0;
   left: 0;
   right: 0;
+  margin-bottom: 0px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 90px;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-evenly;
+  font-size: 15px;
 }
 
 #wrapper #score {
   height: 180px;
-  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pride-flags-1622580006.png?") center;
+  /* background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pride-flags-1622580006.png?") center; */
   background-color: rgba(255, 255, 255, 1);
   border-radius: 7px;
   box-shadow: 5px 5px 10px black,
@@ -137,12 +151,12 @@ html {
 
 h1 {
   font-family: harry_pregular;
-  color: #ccc;
-  text-shadow: 1px 1px 5px black;
+  color: rgb(251, 239, 255);
+  text-shadow: 1px 1px 5px rgb(65, 2, 83);
   font-size: 7rem;
   text-align: right;
   padding: 1rem 1rem 0 0;
-  margin-top: -15px;
+  margin-top: 10px;
 }
 
 #score h1 {
@@ -155,16 +169,18 @@ h1 {
 
 #start,
 #reset {
-  width: 8em;
-  height: 3em;
+  width: 10em;
+  height: 4em;
   position: absolute;
   top: 0;
   left: 0;
   border: 0;
-  border-radius: 7px 0px;
+  border-radius: 40px;
   background-color: #ccc;
-  background: linear-gradient(#ccc, #666);
-  box-shadow: 1px 1px 1px black;
+  background: linear-gradient(to right, #b660ec, #f54c69);
+  box-shadow: 2px 2px 2px rgb(90, 55, 110);
+  margin-top: 520px;
+  margin-left: 440px;
 }
 
 #start:hover,
@@ -178,25 +194,29 @@ h1 {
 
 select,
 div button {
-  width: 15em;
+  width: 10em;
+  font-size: 15px;
 }
 
 select {
-  height: 2.2rem;
+  height: 4rem;
+  width: 48em;
   transform: translateY(1px);
   text-align: center;
   margin-right: 1rem;
+  margin-top: 40px;
+  margin-left: -8.5rem;
 }
 
 div button {
-  height: 2.2rem;
+  height: 3rem;
   border: 0;
-  background-color: #ccc;
-  background: linear-gradient(#ccc, #666);
-  box-shadow: 1px 1px 1px black;
-  border-radius: 7px 0px;
-  margin-top: 450px;
-  margin-left: 350px;
+  background-color: rgb(30, 5, 5);
+  background: linear-gradient(to right, rgba(114, 236, 255), rgb(245, 116, 204));
+  box-shadow: 1px 2px 3px rgb(119, 73, 73);
+  border-radius: 15px;
+  margin-top: 120px;
+  margin-right: 100px;
 }
 
 @media all and (max-width: 500px) {

@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Corinthia:wght@400;700&family=Estonia&family=Meow+Script&family=MonteCarlo&family=Ubuntu&display=swap');
 /*!
 * Start Bootstrap - One Page Wonder v6.0.5 (https://startbootstrap.com/theme/one-page-wonder)
 * Copyright 2013-2022 Start Bootstrap
@@ -189,7 +191,7 @@ h6,
 }
 
 p {
-  margin-top: 0;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -578,9 +580,11 @@ progress {
 }
 
 .display-4 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(1.275rem + 2.3vw) !important;
   font-weight: 300;
   line-height: 1.2;
+  font-family: 'Abril Fatface', cursive;
+  color: rgba(110, 72, 83, 0.736);
 }
 
 @media (min-width: 1200px) {
@@ -4612,8 +4616,9 @@ fieldset:disabled .btn {
 .navbar>.container-xxl {
   display: flex;
   flex-wrap: inherit;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
+  margin: -7px 50px;
 }
 
 .navbar-brand {
@@ -4652,6 +4657,7 @@ fieldset:disabled .btn {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  margin-right: -120px;
 }
 
 .navbar-toggler {
@@ -5133,12 +5139,12 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -8271,7 +8277,7 @@ fieldset:disabled .btn {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 1rem !important;
 }
 
 .mt-auto {
@@ -12259,19 +12265,19 @@ html {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-custom .navbar-brand {
   /* text-transform: uppercase; */
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.1rem;
   font-weight: 500;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
@@ -12356,13 +12362,14 @@ header.masthead .bg-circle-4 {
   background: #ffffff00;
   color: #ffffff66;
   /* border: none; */
-  border-radius: 3px;
+  border-radius: 15px;
   border-color: #fff;
   padding: 6px 8px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5;
+  margin-left: 20px;
 }
 
 #google_translate_element option {

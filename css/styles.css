@@ -3539,11 +3539,11 @@ fieldset:disabled .btn {
 .btn-check:active+.btn-danger,
 .btn-danger:active,
 .btn-danger.active,
-.show>.btn-danger.dropdown-toggle {
+/* .show>.btn-danger.dropdown-toggle {
   color: #fff;
   background-color: #b02a37;
   border-color: #a52834;
-}
+} */
 
 .btn-check:checked+.btn-danger:focus,
 .btn-check:active+.btn-danger:focus,
@@ -4515,7 +4515,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ee0979;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4528,7 +4528,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #be0761;
+  color: #ffffff;
 }
 
 .nav-link.disabled {
@@ -4639,18 +4639,20 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-decoration: none;
   white-space: nowrap;
   font-family: 'Kaushan Script', cursive;
 }
 
 .navbar-nav {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-nav .nav-link {
@@ -5143,12 +5145,12 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-brand {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: rgb(254, 240, 240);
+  color: rgb(250, 250, 250) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -5157,7 +5159,7 @@ fieldset:disabled .btn {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgb(254, 254, 254);
+  color: rgb(254, 254, 254) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -5185,7 +5187,7 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: rgb(238, 9, 121);
+  color: rgb(255, 255, 255);
 }
 
 .card {
@@ -6072,11 +6074,11 @@ fieldset:disabled .btn {
   background-color: #fccee4;
 }
 
-.list-group-item-primary.list-group-item-action:hover,
+/* .list-group-item-primary.list-group-item-action:hover,
 .list-group-item-primary.list-group-item-action:focus {
   color: #8f0549;
   background-color: #e3b9cd;
-}
+} */
 
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
@@ -6140,11 +6142,11 @@ fieldset:disabled .btn {
   background-color: #fff3cd;
 }
 
-.list-group-item-warning.list-group-item-action:hover,
+/* .list-group-item-warning.list-group-item-action:hover,
 .list-group-item-warning.list-group-item-action:focus {
   color: #997404;
   background-color: #e6dbb9;
-}
+} */
 
 .list-group-item-warning.list-group-item-action.active {
   color: #fff;
@@ -6174,11 +6176,11 @@ fieldset:disabled .btn {
   background-color: #fefefe;
 }
 
-.list-group-item-light.list-group-item-action:hover,
+/* .list-group-item-light.list-group-item-action:hover,
 .list-group-item-light.list-group-item-action:focus {
   color: #636464;
   background-color: #e5e5e5;
-}
+} */
 
 .list-group-item-light.list-group-item-action.active {
   color: #fff;
@@ -6191,11 +6193,11 @@ fieldset:disabled .btn {
   background-color: #d3d3d4;
 }
 
-.list-group-item-dark.list-group-item-action:hover,
+/* .list-group-item-dark.list-group-item-action:hover,
 .list-group-item-dark.list-group-item-action:focus {
   color: #141619;
   background-color: #bebebf;
-}
+} */
 
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
@@ -12291,9 +12293,10 @@ html {
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 900;
   letter-spacing: 0.1rem;
+  padding: 0 10px 10px 10px;
 }
 
 header.masthead {
@@ -12306,6 +12309,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead .masthead-content {
@@ -12316,6 +12320,7 @@ header.masthead .masthead-content {
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
   font-family: 'Corinthia', cursive;
+  margin-top: 4.3rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -12389,6 +12394,7 @@ header.masthead .bg-circle-4 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  margin-right: -50px;
 }
 
 #google_translate_element option {
@@ -12472,9 +12478,9 @@ i {
   margin: 20px 20px;
 }
 
-.pe:hover {
+/* .pe:hover {
   background-color: #dfe4ea !important;
-}
+} */
 
 .pe img {
   width: 120px;

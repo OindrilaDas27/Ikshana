@@ -22,10 +22,10 @@ body {
 
 .wrapper {
 	max-width: 500px;
-	padding: 0 0.5rem;
+	padding: 9.5rem 0.5rem 0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 4rem;
+	padding-top: 4.5rem;
 }
 
 label {
@@ -65,8 +65,7 @@ input:focus {
 /*calener*/
 #ui-datepicker-div {
 	display: none;
-	background-color: #9daaf2;
-	box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+	background: linear-gradient(60deg, #fd959f, #74ffd8);
 	margin-top: 0.25rem;
 	border-radius: 0.5rem;
 	border-color: #0d0e0d;
@@ -92,7 +91,7 @@ table {
 	width: 2.5rem;
 	text-align: center;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .ui-datepicker-calendar tbody td a {
@@ -110,7 +109,7 @@ table {
 }
 
 .ui-datepicker-calendar tbody td a.ui-state-active {
-	background-color: rgb(221, 208, 220);
+	background-color: rgb(255, 153, 153);
 	color: rgb(3, 3, 3);
 }
 
@@ -168,7 +167,8 @@ table {
 .card {
 	margin: 10px auto;
 	box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
-	background: linear-gradient(to right, #fd959f, #74ffd8);
+	background: #7dd4bb;
+	/* background: linear-gradient(60deg, #fd959f, #74ffd8); */
 	border-radius: 6px;
 	height: 300px;
 	width: 300px !important;
@@ -217,15 +217,15 @@ table {
 }
 
 .card-body1 .btn1 {
-	background: linear-gradient(to top right, #ffa2e5, #e6b8ff);
-	color: black;
+	background: linear-gradient(to top right, #ffffff, #ffffff);
+	color: #42bf9b;
 	border-radius: 10px;
 
 }
 
 .btn1:hover {
 	background-color: rgba(0, 0, 0, 0.1);
-	color: white;
+	color: #fd959f;
 }
 
 
@@ -262,6 +262,7 @@ button.button-accept {
 }
 
 button.button-accept:hover {
-	background: linear-gradient(to top right, #5a5bf3, #91e7d9);
+	background: linear-gradient(60deg, #fd959fb0, #74ffd8b0);
+	color: #0e0d0d
 	;
 }

@@ -5,8 +5,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 4
-    0px 0 auto;
+    margin: 50px 0px 0 auto;
   }
   
   .card {
@@ -46,8 +45,8 @@
   
   .card:hover {
     transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
+    box-shadow: 5px 5px 30px 15px rgba(71, 0, 0, 0.25), 
+      -5px -5px 30px 15px rgba(56, 0, 0, 0.22);
   }
   
   /* .title-white {
@@ -102,12 +101,14 @@
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #e12525, #e47f40, #30dd33, #2b9db6);
+    background-image: linear-gradient(to right, #e12525, #ffd249, #30dd33, #2b9db6);
+    margin-top: -30px;
+    box-shadow: 0 0 30px 7px rgba(0, 0, 0, 0.611);
 }
   
 body {
-    background-image: linear-gradient(-45deg, #ec3a3a, #e76d3c, #e5ce1f, #2fda1c, #3041dd, #7c2bb6);
+    background-image: linear-gradient(-60deg, #ec3a3aac, #e76d3cac, #e5ce1fac, #2fda1cac, #3041ddac, #7c2bb6ac);
     /* background-size: 400% 400%; */
-    animation: gradient 15s ease infinite;
+    /* animation: gradient 15s ease infinite; */
     height: 100vh;
 }
