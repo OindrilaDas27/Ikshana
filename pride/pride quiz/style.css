@@ -1,5 +1,6 @@
 /* || font import */
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Courgette&display=swap');
 * {
   box-sizing: border-box;
   border-radius: 25px;
@@ -150,10 +151,10 @@ html {
 /* || typography */
 
 h1 {
-  font-family: harry_pregular;
+  font-family: 'Cookie', cursive;
   color: rgb(251, 239, 255);
   text-shadow: 1px 1px 5px rgb(65, 2, 83);
-  font-size: 7rem;
+  font-size: 10rem;
   text-align: right;
   padding: 1rem 1rem 0 0;
   margin-top: 10px;
