@@ -66,4 +66,7 @@ git clone https://github.com/OindrilaDas27/Ikshana.git
 <br>
 
 # Demo
-You will be greeted 
+You will be greeted with a message in our homepage, from where you can either sign up/sign in or go straight to the features section:
+
+![Homepage](/assets/img/homepage.gif)
+
