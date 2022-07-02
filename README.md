@@ -68,5 +68,26 @@ git clone https://github.com/OindrilaDas27/Ikshana.git
 # Demo
 You will be greeted with a message in our homepage, from where you can either sign up/sign in or go straight to the features section:
 
-![Homepage](/assets/img/homepage.gif)
+<p align="center">
+  <img src="./assets/img/homepage.gif" alt="animated" />
+</p>
 
+You can look through the various features we've provided:
+<p align="center">
+  <img src="./assets/img/features.gif" alt="animated" />
+</p>
+
+Track your periods and taker care of yourself with our all you need to know section:
+<p align="center">
+  <img src="./assets/img/period.gif" alt="animated" />
+</p>
+
+You can track your pregnancy and keep yourself updated with the pregnancy tracker:
+<p align="center">
+  <img src="./assets/img/preg.gif" alt="animated" />
+</p>
+
+For those who are still exploring their sexuality, there's a quiz section in the all about pride feature:
+<p align="center">
+  <img src="./assets/img/pride.gif" alt="animated" />
+</p>
