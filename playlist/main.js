@@ -20,7 +20,7 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = '754095ec83f74d30ac89dbd32a298582';
-const redirectUri = 'http://localhost:5500/playlist';
+const redirectUri = 'http://127.0.0.1:5501/playlist';
 const scopes = [
   'streaming',
   'user-modify-playback-state',

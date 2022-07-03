@@ -66,6 +66,9 @@ git clone https://github.com/OindrilaDas27/Ikshana.git
 <br>
 
 # Demo
+<a name="demo"></a>
+
+### A walkthrough of the website.
 You will be greeted with a message in our homepage, from where you can either sign up/sign in or go straight to the features section:
 
 <p align="center">
@@ -91,3 +94,31 @@ For those who are still exploring their sexuality, there's a quiz section in the
 <p align="center">
   <img src="./assets/img/pride.gif" alt="animated" />
 </p>
+
+Make a list of your meds:
+<p align="center">
+  <img src="./assets/img/meds.gif" alt="animated" />
+</p>
+
+We have added a meditation platform for users to relax and meditate:
+<p align="center">
+  <img src="./assets/img/medi.gif" alt="animated" />
+</p>
+
+we also have a mood based playlist. You just need to log in through spotify and listen to the tunes based on your mood:
+<p align="center">
+  <img src="./assets/img/playlist.jpg" alt="animated" />
+</p>
+
+<br>
+
+# Contributors 
+
+<a name="contributors"></a>
+
+<a href="https://github.com/OindrilaDas27">
+  <img src="https://contrib.rocks/image?repo=OindrilaDas27/Ikshana" />
+</a> <a href="https://github.com/Ayushi8989">
+  <img src="https://contrib.rocks/image?repo=Ayushi8989/IKSHANA"/>
+</a>
+
